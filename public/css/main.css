@@ -1,3 +1,7 @@
+a {
+  color: #ffff;
+  text-decoration: none; }
+
 @media screen and (min-width: 960px) {
   .my-s1-caption {
     left: 10%;
@@ -10,7 +14,6 @@
 .box-decoration {
   width: 200px;
   height: 200px;
-  background-color: #fcc302;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -23,7 +26,6 @@
 .box-decoration-2 {
   width: 200px;
   height: 200px;
-  background-color: #fcc302;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -46,22 +48,36 @@
   padding: 0;
   margin: 0; }
 
-.my-footer-links {
-  color: #ffff; }
-
-.btn-color-1 {
-  color: #ffff;
-  background-color: #00bec9; }
-
-.btn-color-2 {
-  color: #ffff;
-  background-color: #fcc302; }
-
-.bg-color-1 {
-  background-color: #fcc302; }
-
-.bg-color-dark {
-  background-color: #343434; }
-
 .bg-none-card {
   background: none; }
+
+.link-decoration {
+  padding: 0 1.7rem; }
+
+a:hover {
+  color: #00bec9;
+  font-weight: bold; }
+
+.logo {
+  padding-right: 1rem;
+  width: 80%; }
+
+.button-colored {
+  background-color: #00bec9; }
+
+.base-color {
+  background-color: #fcc302; }
+
+.button-colored:hover {
+  background-color: #22a1b0; }
+
+.navbar {
+  background-color: #daac00; }
+  .navbar a {
+    font-size: 1.2rem; }
+
+.box-decoration, .box-decoration-2 {
+  background-color: #fcc302; }
+
+.my-footer-links {
+  color: #313243; }

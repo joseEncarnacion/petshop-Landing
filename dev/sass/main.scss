@@ -1,6 +1,12 @@
 @import './config/variables';
 @import './config/mixing';
+@import './layout/reset';
 
 // component
 @import './component/comp-header';
 @import './component/comp-main';
+@import './component/navbar';
+
+
+// theme
+@import './theme/colorLayout';

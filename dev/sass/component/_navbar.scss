@@ -1,0 +1,27 @@
+.link-decoration {
+    padding: 0 1.7rem;
+}
+
+a:hover {
+   color: $mysecondary;
+   font-weight: bold;
+}
+
+.logo {
+    padding-right: 1rem;
+    width: 80%;
+}
+
+.button-colored {
+    background-color: $mysecondary;
+}
+
+.base-color {
+    background-color: $baseAlt;
+}
+
+.button-colored:hover {
+    background-color: $mysecondaryAlt;
+
+}
+
