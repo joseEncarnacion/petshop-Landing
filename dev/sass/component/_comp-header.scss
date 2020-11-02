@@ -1,0 +1,13 @@
+
+.my-s1-caption {
+    @include laptop {
+        left: 10%;
+        right: 25%;
+        top: 20%;
+        bottom: 20%;
+        text-align: left;
+        width: 400px;
+    }
+    
+}
+

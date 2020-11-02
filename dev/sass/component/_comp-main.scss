@@ -1,0 +1,88 @@
+// banel video 1
+
+
+.box-decoration {
+    width: 200px;
+    height:200px;
+    background-color: $bg-color-1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.img-video {
+    position: relative;
+    z-index: 10;
+}
+
+.box-decoration-2 {
+    width: 200px;
+    height:200px;
+    background-color: $bg-color-1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+}
+
+// banel bg
+.img-banel-bg {
+    @include laptop {
+        background-image: url(/images/bg-banel-vacunas.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 574px;
+        max-height: 575px;
+    }
+
+}
+
+
+// footer
+
+.footer {
+    @include laptop {
+        height: 600px;
+        max-height: 654px;
+    }
+}
+
+.f-link-container{
+    padding: 0;
+    margin: 0;
+}
+.my-footer-links{
+    color: $text-color-1;
+    
+}
+
+
+// btn color
+
+.btn-color-1 {
+    color: $text-color-1;
+    background-color: $btn-color-1;
+}
+.btn-color-2 {
+    color: $text-color-1;
+    background-color: $btn-color-2;
+}
+
+
+
+// backgrounds
+
+.bg-color-1 {
+    background-color: $bg-color-1;
+}
+
+.bg-color-dark {
+    background-color: $color-style-3;
+}
+
+// theme atribute
+
+.bg-none-card {
+    background: none;
+}

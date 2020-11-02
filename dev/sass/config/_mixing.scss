@@ -1,0 +1,24 @@
+// media query
+
+// the variable' width size is th varible file
+@mixin mobile {
+    @media screen  and (min-width:$mobile){
+        @content;
+    }
+}
+@mixin tablet {
+    @media screen  and (min-width:$tablet){
+        @content;
+    }
+}
+@mixin laptop {
+    @media screen  and (min-width:$laptop){
+        @content;
+    }
+}
+@mixin desktop {
+    @media screen  and (min-width:$desktop){
+        @content;
+    }
+}
+

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/icons/css/fontello.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>PetShop</title>
+</head>
+<body>
+    <header>
+      
+      <div class="container">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+        </nav>
+          
+          <!-- carousel -->
+          <div class="row">
+              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner overflow-hidden">
+
+                    <div class="carousel-item active">
+                      <img src="./images/header-s-1c.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block my-s1-caption">
+                        <h3>First I wanted to be
+                          a veterinarian</h3>
+                        <p>Lorem Ipsum available but the majority have
+                          suffered alteration in some form, by injected
+                          humour randomised words..</p>
+                          <button type="button" class="btn btn-primary">Contact us</button>
+                          <button type="button" class="btn btn-outline-secondary">Our service</button>
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <img src="./images/header-s-1c.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+          </div>
+      </div>
+
+    </header>
+    <main>
+        <!-- banel video 1 -->
+        <div class="container">
+          <div class="row my-5">
+            <div class="card mb-5 border-0" style="max-width: 100%;">
+              <div class="row no-gutters">
+                <div class="col-md-6 order-md-2 ">
+                  <div class="box-decoration"></div>
+                  <img src="./images/img-video.jpg" class="card-img p-4 img-video" alt="">
+                </div>
+                <div class="col-md-6 order-md-1 d-flex align-items-stretch pr-5 ">
+                  <div class="card-body p-5 myCard-cationBig d-flex flex-column justify-content-center " >
+                    <h2 class="card-title d-block">As a veterinarian and
+                      lover of animals.</h2>
+                    <p class="card-text d-block ">Lorem Ipsum available but the majoty
+                      suffered alteration in some form, by
+                      humour randomised words..</p>
+                    <a name="" id="" class="btn btn-color-2 btn-primary btn-block" href="#" role="button">Our Service</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- First 3 banel informatios  nuses-->
+          <div class="row justify-content-center mb-5 bg-color-1 p-4 text-white">
+            <div class="col-6 d-block text-center py-3">
+              <h1>Title here </h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquam illo nam.</p>
+            </div>
+            <!-- 3 banel -->
+            <div class="card-deck mb-5 ">
+              <div class="card bg-color-1 border-0 text-center">
+                <img src="./images/banel-1-.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Veterinarian</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, consequatur. Dolor?.</p>
+                  <a href="#" class="btn btn-outline-info">More informations.</a>
+                  
+                </div>
+              </div>
+              <div class="card bg-color-1 border-0 text-center">
+                <img src="./images/banel-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-outline-info">More informations.</a>
+                </div>
+              </div>
+              <div class="card bg-color-1 border-0 text-center">
+                <img src="./images/bannel-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <a href="#" class="btn btn-outline-info">More informations.</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- banel video 2 -->
+          <div class="row my-5">
+            <div class="card mb-3 border-0" style="max-width: 100%;">
+              <div class="row no-gutters">
+                <div class="col-md-6  ">
+                  <div class="box-decoration-2"></div>
+                  <img src="./images/img-video.jpg" class="card-img img-video p-4" alt="">
+                </div>
+                <div class="col-md-6 text-right d-flex align-items-stretch pl-5 ">
+                  <div class="card-body p-5 myCard-cationBig d-flex flex-column justify-content-center" >
+                    <h4 class="card-title">As a veterinarian and
+                      lover of animals.</h4>
+                    <p class="card-text ">Lorem Ipsum available but the majoty
+                      suffered alteration in some form, by
+                      humour randomised words..</p>
+                    <a name="" id="" class="btn btn-color-2 btn-secondary border-0" href="#" role="button">Our Service</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- secund 3 banel informatios  doges pets-->
+          <div class="row justify-content-center mb-5 bg-color-1 p-4 text-white">
+            <div class="col-6 d-block text-center py-3">
+              <h1>Title here</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt tenetur laudantium!</p>
+            </div>
+            <!-- 3 banel -->
+            <div class="card-deck mb-5">
+              <div class="card border-0 text-center ">
+                <img src="./images/banel2-img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-color-1">
+                  <h2 class="card-title"><span>$50</span> <span>$30</span></h2>
+                  <a href="#" class="btn btn-secondary my-2">Buy Now</a>
+                </div>
+              </div>
+              <div class="card border-0 text-center">
+                <img src="./images/banel2-img2.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-color-1">
+                  <h2 class="card-title"><span>$50</span> <span>$30</span></h2>
+                  <a href="#" class="btn btn-secondary my-2">Buy Now</a>
+                </div>
+              </div>
+              <div class="card border-0 text-center">
+                <img src="./images/banel2-img3.jpg" class="card-img-top" alt="...">
+                <div class="card-body bg-color-1">
+                  <h2 class="card-title"><span>$50</span> <span>$30</span></h2>
+                  <a href="#" class="btn btn-secondary my-2">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <!-- third 3 banel informatios doctors -->
+           <div class="row justify-content-center mb-5">
+            <div class="col-6 d-block text-center py-3">
+              <h1 class="font-weight-bolder">The vetcare team</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt tenetur laudantium!</p>
+            </div>
+            <!-- 3 banel -->
+            <div class="card-deck text-center ">
+              <div class="card border-0">
+                <img src="./images/banel3-img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Jennifer Mullen</h4>
+                  <p class="card-text text-uppercase">Vererinary</p>
+                  
+                </div>
+              </div>
+              <div class="card border-0">
+                <img src="./images/banel3-img2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Sheeren Collins</h4>
+                  <p class="card-text text-uppercase">Administration</p>
+                  
+                </div>
+              </div>
+              <div class="card border-0">
+                <img src="./images/banel3-img3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h4 class="card-title">Alice Mcfiller</h4>
+                  <p class="card-text text-uppercase">Vererinary</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- icon 3 banel informatios icon -->
+          <div class="row justify-content-center d-flex align-items-center mb-5 img-banel-bg ">
+            <div class="card-deck">
+              <div class="card border-0 bg-none-card">
+                <i class="icon-heartbeat"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card border-0 bg-none-card">
+                <i class="icon-stethoscope"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card border-0 bg-none-card">
+                <i class="icon-medkit"></i>
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- recent post -->
+           <!-- third 3 banel informatios clicnic -->
+           <div class="row justify-content-center mb-5">
+            <div class="col-6 d-block text-center py-3">
+              <h1>Title here</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt tenetur laudantium!</p>
+            </div>
+            <!-- 3 banel -->
+            <div class="card-deck mb-5">
+              <div class="card shadow">
+                <img src="./images/img-card-inf1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h3 class="card-title"> As a veterinarian and lover of animals</h3>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                  <a href="#" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+              <div class="card shadow">
+                <img src="./images/img-card-inf2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h3 class="card-title"> As a veterinarian and lover of animals</h3>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                  <a href="#" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+              <div class="card shadow">
+                <img src="./images/img-card-inf3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h3 class="card-title"> As a veterinarian and lover of animals</h3>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi consectetur nisi corporis atque debitis. Veritatis!</p>
+                  
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                  <a href="#" class="btn btn-outline-secondary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
+    <footer class="">
+      <div class="container ">
+        <div class="row bg-color-dark px-5 text-white footer justify-content-around d-flex align-items-center ">
+          
+          <div class="col-4">
+           
+            <h4>About</h4>
+
+            <!-- menu -->
+            <nav class="nav flex-column f-link-container">
+              <a class="nav-link my-footer-links active" href="#">History</a>
+              <a class="nav-link my-footer-links" href="#">Our Team</a>
+              <a class="nav-link my-footer-links" href="#">Brand Guide</a>
+              <a class="nav-link my-footer-links" href="#">Term & condition</a>
+              <a class="nav-link my-footer-links" href="#">Privacy Police</a>
+              
+            </nav>
+
+          </div>
+          <div class="col-4">
+
+            <h4>Service</h4>
+            <nav class="nav flex-column f-link-container ">
+              <a class="nav-link my-footer-links active" href="#">How to Order</a>
+              <a class="nav-link my-footer-links" href="#">Our Product</a>
+              <a class="nav-link my-footer-links" href="#">Order Status</a>
+              <a class="nav-link my-footer-links" href="#">Promo</a>
+              <a class="nav-link my-footer-links" href="#">Payment Method</a>
+              
+            </nav>
+
+          </div>
+          <div class="col-4 text-right d-flex flex-column align-items-end">
+            <!-- suscribe -->
+            <h4>Suscribe</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <form class="form-inline my-2 my-lg-0 footer-form py-4">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+          <div class="col-12">
+            <!-- social network -->
+            <i class="icon-facebook-circled icono facebook"></i>
+            <i class="icon-instagram-circled icono intstagram"></i>
+            <i class="icon-twitter-circled icono twiter"></i>
+            <i class="icon-gplus-circled icono gplus"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
