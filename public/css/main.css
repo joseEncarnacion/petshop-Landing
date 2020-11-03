@@ -2,6 +2,10 @@ a {
   color: #ffff;
   text-decoration: none; }
 
+body {
+  background-color: #ffff;
+  font-size: 1.2rem; }
+
 @media screen and (min-width: 960px) {
   .my-s1-caption {
     left: 10%;
@@ -71,6 +75,20 @@ a:hover {
 .button-colored:hover {
   background-color: #22a1b0; }
 
+.fa-heartbeat, .fa-stethoscope, .fa-syringe {
+  font-size: 3rem;
+  color: #ffff; }
+
+.card-icon-item {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; }
+
+.my-footer-links {
+  color: #ffff; }
+
 .navbar {
   background-color: #daac00; }
   .navbar a {
@@ -81,3 +99,23 @@ a:hover {
 
 .my-footer-links {
   color: #313243; }
+
+/* btn color*/
+.button-base {
+  background-color: #fcc302; }
+
+.button-base:hover {
+  background-color: #daac00; }
+
+.button-secondary {
+  background-color: #00bec9; }
+
+.button-secondary {
+  background-color: #22a1b0; }
+
+/* main color*/
+.base-color {
+  background-color: #fcc302; }
+
+.dark-color {
+  background-color: #313243; }

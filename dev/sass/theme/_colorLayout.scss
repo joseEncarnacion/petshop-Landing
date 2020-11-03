@@ -20,3 +20,29 @@
     color: $text-color;
     
 }
+
+/* btn color*/
+
+.button-base {
+    background-color: $baseAlt;
+}
+.button-base:hover {
+    background-color: $base;
+}
+
+.button-secondary {
+    background-color: $mysecondary;
+}
+.button-secondary {
+    background-color: $mysecondaryAlt;
+}
+
+/* main color*/
+
+.base-color {
+    background-color: $baseAlt;
+}
+
+.dark-color {
+    background-color: $text-color;
+}
