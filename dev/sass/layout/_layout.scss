@@ -1,0 +1,265 @@
+/*Padding con dimenciones y medica query*/
+
+
+// large general padding
+.padding-l-5 {
+    @include laptop {
+        padding: 4rem;
+    }
+}
+.padding-l-4 {
+    @include laptop {
+        padding: 3rem;
+    }
+}
+.padding-l-3 {
+    @include laptop {
+        padding: 2rem;
+    }
+}
+.padding-l-2 {
+    @include laptop {
+        padding: 1rem;
+    }
+}
+.padding-l-1 {
+    @include laptop {
+        padding: 0.5rem;
+    }
+}
+.padding-l-0 {
+    @include laptop {
+        padding: 0;
+    }
+}
+
+// large x(left and right) lateral padding
+.padding-lx-5 {
+    @include laptop {
+        padding: 0 4rem;
+    }
+}
+.padding-lx-4 {
+    @include laptop {
+        padding: 0 3rem;
+    }
+}
+.padding-lx-3 {
+    @include laptop {
+        padding: 0 2rem;
+    }
+}
+.padding-lx-2 {
+    @include laptop {
+        padding: 0 1rem;
+    }
+}
+.padding-lx-1 {
+    @include laptop {
+        padding: 0 0.5rem;
+    }
+}
+// large y(up and down) padding
+.padding-ly-5 {
+    @include laptop {
+        padding: 4rem 0;
+    }
+}
+.padding-ly-4 {
+    @include laptop {
+        padding: 3rem 0;
+    }
+}
+.padding-ly-3 {
+    @include laptop {
+        padding: 2rem 0;
+    }
+}
+.padding-ly-2 {
+    @include laptop {
+        padding: 1rem 0;
+    }
+}
+.padding-ly-1 {
+    @include laptop {
+        padding: 0.5rem 0;
+    }
+}
+
+////////////////////////////////////////////////////////
+
+
+// medium padding 
+
+.padding-md-5 {
+    @include tablet {
+        padding: 4rem;
+    }
+}
+.padding-md-4 {
+    @include tablet {
+        padding: 3rem;
+    }
+}
+.padding-md-3 {
+    @include tablet {
+        padding: 2rem;
+    }
+}
+.padding-md-2 {
+    @include tablet {
+        padding: 1rem;
+    }
+}
+.padding-md-1 {
+    @include tablet {
+        padding: 0.5rem;
+    }
+}
+.padding-md-0 {
+    @include tablet {
+        padding: 0;
+    }
+}
+
+// large x(left and right) lateral padding
+.padding-mdx-5 {
+    @include tablet {
+        padding: 0 4rem;
+    }
+}
+.padding-mdx-4 {
+    @include tablet {
+        padding: 0 3rem;
+    }
+}
+.padding-mdx-3 {
+    @include tablet {
+        padding: 0 2rem;
+    }
+}
+.padding-mdx-2 {
+    @include tablet {
+        padding: 0 1rem;
+    }
+}
+.padding-mdx-1 {
+    @include tablet {
+        padding: 0 0.5rem;
+    }
+}
+// large y(up and down) padding
+.padding-mdy-5 {
+    @include tablet {
+        padding: 4rem 0;
+    }
+}
+.padding-mdy-4 {
+    @include tablet {
+        padding: 3rem 0;
+    }
+}
+.padding-mdy-3 {
+    @include tablet {
+        padding: 2rem 0;
+    }
+}
+.padding-mdy-2 {
+    @include tablet {
+        padding: 1rem 0;
+    }
+}
+.padding-mdy-1 {
+    @include tablet {
+        padding: 0.5rem 0;
+    }
+}
+
+
+
+
+
+// small padding
+.padding-sm-5 {
+    @include mobile {
+        padding: 4rem;
+    }
+}
+.padding-sm-4 {
+    @include mobile {
+        padding: 3rem;
+    }
+}
+.padding-sm-3 {
+    @include mobile {
+        padding: 2rem;
+    }
+}
+.padding-sm-2 {
+    @include mobile {
+        padding: 1rem;
+    }
+}
+.padding-sm-1 {
+    @include mobile {
+        padding: 0.5rem;
+    }
+}
+.padding-sm-0 {
+    @include mobile {
+        padding: 0;
+    }
+}
+
+// large x(left and right) lateral padding
+.padding-smx-5 {
+    @include mobile {
+        padding: 0 4rem;
+    }
+}
+.padding-smx-4 {
+    @include mobile {
+        padding: 0 3rem;
+    }
+}
+.padding-smx-3 {
+    @include mobile {
+        padding: 0 2rem;
+    }
+}
+.padding-smx-2 {
+    @include mobile {
+        padding: 0 1rem;
+    }
+}
+.padding-smx-1 {
+    @include mobile {
+        padding: 0 0.5rem;
+    }
+}
+// large y(up and down) padding
+.padding-smy-5 {
+    @include mobile {
+        padding: 4rem 0;
+    }
+}
+.padding-smy-4 {
+    @include mobile {
+        padding: 3rem 0;
+    }
+}
+.padding-smy-3 {
+    @include mobile {
+        padding: 2rem 0;
+    }
+}
+.padding-smy-2 {
+    @include mobile {
+        padding: 1rem 0;
+    }
+}
+.padding-smy-1 {
+    @include mobile {
+        padding: 0.5rem 0;
+    }
+}

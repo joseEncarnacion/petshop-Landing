@@ -1,6 +1,11 @@
 @import './config/variables';
 @import './config/mixing';
 @import './layout/reset';
+@import './config/breackpoints';
+
+
+// layout
+@import './layout/layout';
 
 // component
 @import './component/comp-header';

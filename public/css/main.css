@@ -1,3 +1,4 @@
+/*Reset html*/
 a {
   color: #ffff;
   text-decoration: none; }
@@ -6,6 +7,217 @@ body {
   background-color: #ffff;
   font-size: 1.2rem; }
 
+/*Breackpoints */
+@media screen and (min-width: 960px) {
+  .logo {
+    padding-right: 1rem;
+    width: 80%; } }
+
+@media screen and (max-width: 576px) {
+  .text-box-sm {
+    padding: 0; } }
+
+@media screen and (max-width: 576px) {
+  .title-sm {
+    font-size: 1.5rem; } }
+
+root {
+  border: 3px solid red; }
+
+/*Padding con dimenciones y medica query*/
+@media screen and (min-width: 960px) {
+  .padding-l-5 {
+    padding: 4rem; } }
+
+@media screen and (min-width: 960px) {
+  .padding-l-4 {
+    padding: 3rem; } }
+
+@media screen and (min-width: 960px) {
+  .padding-l-3 {
+    padding: 2rem; } }
+
+@media screen and (min-width: 960px) {
+  .padding-l-2 {
+    padding: 1rem; } }
+
+@media screen and (min-width: 960px) {
+  .padding-l-1 {
+    padding: 0.5rem; } }
+
+@media screen and (min-width: 960px) {
+  .padding-l-0 {
+    padding: 0; } }
+
+@media screen and (min-width: 960px) {
+  .padding-lx-5 {
+    padding: 0 4rem; } }
+
+@media screen and (min-width: 960px) {
+  .padding-lx-4 {
+    padding: 0 3rem; } }
+
+@media screen and (min-width: 960px) {
+  .padding-lx-3 {
+    padding: 0 2rem; } }
+
+@media screen and (min-width: 960px) {
+  .padding-lx-2 {
+    padding: 0 1rem; } }
+
+@media screen and (min-width: 960px) {
+  .padding-lx-1 {
+    padding: 0 0.5rem; } }
+
+@media screen and (min-width: 960px) {
+  .padding-ly-5 {
+    padding: 4rem 0; } }
+
+@media screen and (min-width: 960px) {
+  .padding-ly-4 {
+    padding: 3rem 0; } }
+
+@media screen and (min-width: 960px) {
+  .padding-ly-3 {
+    padding: 2rem 0; } }
+
+@media screen and (min-width: 960px) {
+  .padding-ly-2 {
+    padding: 1rem 0; } }
+
+@media screen and (min-width: 960px) {
+  .padding-ly-1 {
+    padding: 0.5rem 0; } }
+
+@media screen and (min-width: 720px) {
+  .padding-md-5 {
+    padding: 4rem; } }
+
+@media screen and (min-width: 720px) {
+  .padding-md-4 {
+    padding: 3rem; } }
+
+@media screen and (min-width: 720px) {
+  .padding-md-3 {
+    padding: 2rem; } }
+
+@media screen and (min-width: 720px) {
+  .padding-md-2 {
+    padding: 1rem; } }
+
+@media screen and (min-width: 720px) {
+  .padding-md-1 {
+    padding: 0.5rem; } }
+
+@media screen and (min-width: 720px) {
+  .padding-md-0 {
+    padding: 0; } }
+
+@media screen and (min-width: 720px) {
+  .padding-mdx-5 {
+    padding: 0 4rem; } }
+
+@media screen and (min-width: 720px) {
+  .padding-mdx-4 {
+    padding: 0 3rem; } }
+
+@media screen and (min-width: 720px) {
+  .padding-mdx-3 {
+    padding: 0 2rem; } }
+
+@media screen and (min-width: 720px) {
+  .padding-mdx-2 {
+    padding: 0 1rem; } }
+
+@media screen and (min-width: 720px) {
+  .padding-mdx-1 {
+    padding: 0 0.5rem; } }
+
+@media screen and (min-width: 720px) {
+  .padding-mdy-5 {
+    padding: 4rem 0; } }
+
+@media screen and (min-width: 720px) {
+  .padding-mdy-4 {
+    padding: 3rem 0; } }
+
+@media screen and (min-width: 720px) {
+  .padding-mdy-3 {
+    padding: 2rem 0; } }
+
+@media screen and (min-width: 720px) {
+  .padding-mdy-2 {
+    padding: 1rem 0; } }
+
+@media screen and (min-width: 720px) {
+  .padding-mdy-1 {
+    padding: 0.5rem 0; } }
+
+@media screen and (max-width: 576px) {
+  .padding-sm-5 {
+    padding: 4rem; } }
+
+@media screen and (max-width: 576px) {
+  .padding-sm-4 {
+    padding: 3rem; } }
+
+@media screen and (max-width: 576px) {
+  .padding-sm-3 {
+    padding: 2rem; } }
+
+@media screen and (max-width: 576px) {
+  .padding-sm-2 {
+    padding: 1rem; } }
+
+@media screen and (max-width: 576px) {
+  .padding-sm-1 {
+    padding: 0.5rem; } }
+
+@media screen and (max-width: 576px) {
+  .padding-sm-0 {
+    padding: 0; } }
+
+@media screen and (max-width: 576px) {
+  .padding-smx-5 {
+    padding: 0 4rem; } }
+
+@media screen and (max-width: 576px) {
+  .padding-smx-4 {
+    padding: 0 3rem; } }
+
+@media screen and (max-width: 576px) {
+  .padding-smx-3 {
+    padding: 0 2rem; } }
+
+@media screen and (max-width: 576px) {
+  .padding-smx-2 {
+    padding: 0 1rem; } }
+
+@media screen and (max-width: 576px) {
+  .padding-smx-1 {
+    padding: 0 0.5rem; } }
+
+@media screen and (max-width: 576px) {
+  .padding-smy-5 {
+    padding: 4rem 0; } }
+
+@media screen and (max-width: 576px) {
+  .padding-smy-4 {
+    padding: 3rem 0; } }
+
+@media screen and (max-width: 576px) {
+  .padding-smy-3 {
+    padding: 2rem 0; } }
+
+@media screen and (max-width: 576px) {
+  .padding-smy-2 {
+    padding: 1rem 0; } }
+
+@media screen and (max-width: 576px) {
+  .padding-smy-1 {
+    padding: 0.5rem 0; } }
+
+/*Header componet*/
 @media screen and (min-width: 960px) {
   .my-s1-caption {
     left: 10%;
@@ -55,6 +267,7 @@ body {
 .bg-none-card {
   background: none; }
 
+/*Navbar componet*/
 .link-decoration {
   padding: 0 1.7rem; }
 
@@ -64,7 +277,7 @@ a:hover {
 
 .logo {
   padding-right: 1rem;
-  width: 80%; }
+  width: 70%; }
 
 .button-colored {
   background-color: #00bec9; }
@@ -75,6 +288,7 @@ a:hover {
 .button-colored:hover {
   background-color: #22a1b0; }
 
+/*Bannel icon component*/
 .fa-heartbeat, .fa-stethoscope, .fa-syringe {
   font-size: 3rem;
   color: #ffff; }
@@ -86,9 +300,11 @@ a:hover {
   flex-direction: column;
   align-items: center; }
 
+/*Footer component*/
 .my-footer-links {
   color: #ffff; }
 
+/*Theme color*/
 .navbar {
   background-color: #daac00; }
   .navbar a {

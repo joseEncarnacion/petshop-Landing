@@ -1,0 +1,28 @@
+/*Breackpoints */
+
+// navbar
+.logo {
+    @include laptop {
+        padding-right: 1rem;
+        width: 80%;
+    }
+}
+
+.text-box-sm {
+    @include mobile {
+
+        padding: 0;
+
+
+    }
+}
+
+.title-sm {
+    @include mobile {
+        font-size: 1.5rem;
+    }
+}
+
+root {
+    border: 3px solid red;
+}
