@@ -8,6 +8,9 @@
     bottom: 0;
     left: 0;
     z-index: 5;
+    @include tablet {
+        bottom: 30px;
+    }
 }
 
 .img-video {
@@ -22,6 +25,9 @@
     bottom: 0;
     right: 0;
     z-index: 5;
+    @include tablet {
+        bottom: 30px;
+    }
 }
 
 // banel bg

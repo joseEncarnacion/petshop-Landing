@@ -3,6 +3,12 @@ a {
   color: #ffff;
   text-decoration: none; }
 
+.link-decoration {
+  padding: 0 1.7rem; }
+
+a:hover {
+  color: #00bec9; }
+
 body {
   background-color: #ffff;
   font-size: 1.2rem; }
@@ -21,8 +27,22 @@ body {
   .title-sm {
     font-size: 1.5rem; } }
 
-root {
-  border: 3px solid red; }
+@media screen and (min-width: 720px) {
+  .banel-container {
+    display: flex;
+    flex-direction: column; } }
+
+@media screen and (min-width: 960px) {
+  .banel-container {
+    flex-direction: row; } }
+
+@media screen and (min-width: 720px) {
+  .item-banel {
+    padding: 1.7rem 0.5rem; } }
+
+@media screen and (min-width: 720px) {
+  .nurse-banel-item {
+    padding: 4rem; } }
 
 /*Padding con dimenciones y medica query*/
 @media screen and (min-width: 960px) {
@@ -217,6 +237,199 @@ root {
   .padding-smy-1 {
     padding: 0.5rem 0; } }
 
+/*margin con dimenciones y medica query*/
+@media screen and (min-width: 960px) {
+  .margin-l-5 {
+    margin: 4rem; } }
+
+@media screen and (min-width: 960px) {
+  .margin-l-4 {
+    margin: 3rem; } }
+
+@media screen and (min-width: 960px) {
+  .margin-l-3 {
+    margin: 2rem; } }
+
+@media screen and (min-width: 960px) {
+  .margin-l-2 {
+    margin: 1rem; } }
+
+@media screen and (min-width: 960px) {
+  .margin-l-1 {
+    margin: 0.5rem; } }
+
+@media screen and (min-width: 960px) {
+  .margin-l-0 {
+    margin: 0; } }
+
+@media screen and (min-width: 960px) {
+  .margin-lx-5 {
+    margin: 0 4rem; } }
+
+@media screen and (min-width: 960px) {
+  .margin-lx-4 {
+    margin: 0 3rem; } }
+
+@media screen and (min-width: 960px) {
+  .margin-lx-3 {
+    margin: 0 2rem; } }
+
+@media screen and (min-width: 960px) {
+  .margin-lx-2 {
+    margin: 0 1rem; } }
+
+@media screen and (min-width: 960px) {
+  .margin-lx-1 {
+    margin: 0 0.5rem; } }
+
+@media screen and (min-width: 960px) {
+  .margin-ly-5 {
+    margin: 4rem 0; } }
+
+@media screen and (min-width: 960px) {
+  .margin-ly-4 {
+    margin: 3rem 0; } }
+
+@media screen and (min-width: 960px) {
+  .margin-ly-3 {
+    margin: 2rem 0; } }
+
+@media screen and (min-width: 960px) {
+  .margin-ly-2 {
+    margin: 1rem 0; } }
+
+@media screen and (min-width: 960px) {
+  .margin-ly-1 {
+    margin: 0.5rem 0; } }
+
+@media screen and (min-width: 720px) {
+  .margin-md-5 {
+    margin: 4rem; } }
+
+@media screen and (min-width: 720px) {
+  .margin-md-4 {
+    margin: 3rem; } }
+
+@media screen and (min-width: 720px) {
+  .margin-md-3 {
+    margin: 2rem; } }
+
+@media screen and (min-width: 720px) {
+  .margin-md-2 {
+    margin: 1rem; } }
+
+@media screen and (min-width: 720px) {
+  .margin-md-1 {
+    margin: 0.5rem; } }
+
+@media screen and (min-width: 720px) {
+  .margin-md-0 {
+    margin: 0; } }
+
+@media screen and (min-width: 720px) {
+  .margin-mdx-5 {
+    margin: 0 4rem; } }
+
+@media screen and (min-width: 720px) {
+  .margin-mdx-4 {
+    margin: 0 3rem; } }
+
+@media screen and (min-width: 720px) {
+  .margin-mdx-3 {
+    margin: 0 2rem; } }
+
+@media screen and (min-width: 720px) {
+  .margin-mdx-2 {
+    margin: 0 1rem; } }
+
+@media screen and (min-width: 720px) {
+  .margin-mdx-1 {
+    margin: 0 0.5rem; } }
+
+@media screen and (min-width: 720px) {
+  .margin-mdy-5 {
+    margin: 4rem 0; } }
+
+@media screen and (min-width: 720px) {
+  .margin-mdy-4 {
+    margin: 3rem 0; } }
+
+@media screen and (min-width: 720px) {
+  .margin-mdy-3 {
+    margin: 2rem 0; } }
+
+@media screen and (min-width: 720px) {
+  .margin-mdy-2 {
+    margin: 1rem 0; } }
+
+@media screen and (min-width: 720px) {
+  .margin-mdy-1 {
+    margin: 0.5rem 0; } }
+
+@media screen and (max-width: 576px) {
+  .margin-sm-5 {
+    margin: 4rem; } }
+
+@media screen and (max-width: 576px) {
+  .margin-sm-4 {
+    margin: 3rem; } }
+
+@media screen and (max-width: 576px) {
+  .margin-sm-3 {
+    margin: 2rem; } }
+
+@media screen and (max-width: 576px) {
+  .margin-sm-2 {
+    margin: 1rem; } }
+
+@media screen and (max-width: 576px) {
+  .margin-sm-1 {
+    margin: 0.5rem; } }
+
+@media screen and (max-width: 576px) {
+  .margin-sm-0 {
+    margin: 0; } }
+
+@media screen and (max-width: 576px) {
+  .margin-smx-5 {
+    margin: 0 4rem; } }
+
+@media screen and (max-width: 576px) {
+  .margin-smx-4 {
+    margin: 0 3rem; } }
+
+@media screen and (max-width: 576px) {
+  .margin-smx-3 {
+    margin: 0 2rem; } }
+
+@media screen and (max-width: 576px) {
+  .margin-smx-2 {
+    margin: 0 1rem; } }
+
+@media screen and (max-width: 576px) {
+  .margin-smx-1 {
+    margin: 0 0.5rem; } }
+
+@media screen and (max-width: 576px) {
+  .margin-smy-5 {
+    margin: 4rem 0; } }
+
+@media screen and (max-width: 576px) {
+  .margin-smy-4 {
+    margin: 3rem 0; } }
+
+@media screen and (max-width: 576px) {
+  .margin-smy-3 {
+    margin: 2rem 0; } }
+
+@media screen and (max-width: 576px) {
+  .margin-smy-2 {
+    margin: 1rem 0; } }
+
+@media screen and (max-width: 576px) {
+  .margin-smy-1 {
+    margin: 0.5rem 0; } }
+
 /*Header componet*/
 @media screen and (min-width: 960px) {
   .my-s1-caption {
@@ -234,6 +447,9 @@ root {
   bottom: 0;
   left: 0;
   z-index: 5; }
+  @media screen and (min-width: 720px) {
+    .box-decoration {
+      bottom: 30px; } }
 
 .img-video {
   position: relative;
@@ -246,6 +462,9 @@ root {
   bottom: 0;
   right: 0;
   z-index: 5; }
+  @media screen and (min-width: 720px) {
+    .box-decoration-2 {
+      bottom: 30px; } }
 
 @media screen and (min-width: 960px) {
   .img-banel-bg {
@@ -268,13 +487,6 @@ root {
   background: none; }
 
 /*Navbar componet*/
-.link-decoration {
-  padding: 0 1.7rem; }
-
-a:hover {
-  color: #00bec9;
-  font-weight: bold; }
-
 .logo {
   padding-right: 1rem;
   width: 70%; }
@@ -303,6 +515,26 @@ a:hover {
 /*Footer component*/
 .my-footer-links {
   color: #ffff; }
+
+@media screen and (min-width: 960px) {
+  .suscribe-input {
+    height: 50px; } }
+
+.sm-icon {
+  font-size: 1.8rem;
+  margin: 0.5rem; }
+
+.btn-icon {
+  font-size: 1.2rem; }
+
+.footer {
+  padding: 3rem 0.5rem; }
+
+.footer-option-nav {
+  padding: 1.5rem 0; }
+
+.footer-form-container {
+  padding-top: 2.5rem; }
 
 /*Theme color*/
 .navbar {

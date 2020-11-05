@@ -263,3 +263,275 @@
         padding: 0.5rem 0;
     }
 }
+
+
+
+
+////////////////////////////////////////////////////
+// margin
+
+/*margin con dimenciones y medica query*/
+
+
+// large general padding
+.margin-l-5 {
+    @include laptop {
+        margin: 4rem;
+    }
+}
+.margin-l-4 {
+    @include laptop {
+        margin: 3rem;
+    }
+}
+.margin-l-3 {
+    @include laptop {
+        margin: 2rem;
+    }
+}
+.margin-l-2 {
+    @include laptop {
+        margin: 1rem;
+    }
+}
+.margin-l-1 {
+    @include laptop {
+        margin: 0.5rem;
+    }
+}
+.margin-l-0 {
+    @include laptop {
+        margin: 0;
+    }
+}
+
+// large x(left and right) lateral padding
+.margin-lx-5 {
+    @include laptop {
+        margin: 0 4rem;
+    }
+}
+.margin-lx-4 {
+    @include laptop {
+        margin: 0 3rem;
+    }
+}
+.margin-lx-3 {
+    @include laptop {
+        margin: 0 2rem;
+    }
+}
+.margin-lx-2 {
+    @include laptop {
+        margin: 0 1rem;
+    }
+}
+.margin-lx-1 {
+    @include laptop {
+        margin: 0 0.5rem;
+    }
+}
+// large y(up and down) padding
+.margin-ly-5 {
+    @include laptop {
+        margin: 4rem 0;
+    }
+}
+.margin-ly-4 {
+    @include laptop {
+        margin: 3rem 0;
+    }
+}
+.margin-ly-3 {
+    @include laptop {
+        margin: 2rem 0;
+    }
+}
+.margin-ly-2 {
+    @include laptop {
+        margin: 1rem 0;
+    }
+}
+.margin-ly-1 {
+    @include laptop {
+        margin: 0.5rem 0;
+    }
+}
+
+////////////////////////////////////////////////////////
+
+
+// medium padding 
+
+.margin-md-5 {
+    @include tablet {
+        margin: 4rem;
+    }
+}
+.margin-md-4 {
+    @include tablet {
+        margin: 3rem;
+    }
+}
+.margin-md-3 {
+    @include tablet {
+        margin: 2rem;
+    }
+}
+.margin-md-2 {
+    @include tablet {
+        margin: 1rem;
+    }
+}
+.margin-md-1 {
+    @include tablet {
+        margin: 0.5rem;
+    }
+}
+.margin-md-0 {
+    @include tablet {
+        margin: 0;
+    }
+}
+
+// large x(left and right) lateral padding
+.margin-mdx-5 {
+    @include tablet {
+        margin: 0 4rem;
+    }
+}
+.margin-mdx-4 {
+    @include tablet {
+        margin: 0 3rem;
+    }
+}
+.margin-mdx-3 {
+    @include tablet {
+        margin: 0 2rem;
+    }
+}
+.margin-mdx-2 {
+    @include tablet {
+        margin: 0 1rem;
+    }
+}
+.margin-mdx-1 {
+    @include tablet {
+        margin: 0 0.5rem;
+    }
+}
+// large y(up and down) padding
+.margin-mdy-5 {
+    @include tablet {
+        margin: 4rem 0;
+    }
+}
+.margin-mdy-4 {
+    @include tablet {
+        margin: 3rem 0;
+    }
+}
+.margin-mdy-3 {
+    @include tablet {
+        margin: 2rem 0;
+    }
+}
+.margin-mdy-2 {
+    @include tablet {
+        margin: 1rem 0;
+    }
+}
+.margin-mdy-1 {
+    @include tablet {
+        margin: 0.5rem 0;
+    }
+}
+
+
+
+
+
+// small padding
+.margin-sm-5 {
+    @include mobile {
+        margin: 4rem;
+    }
+}
+.margin-sm-4 {
+    @include mobile {
+        margin: 3rem;
+    }
+}
+.margin-sm-3 {
+    @include mobile {
+        margin: 2rem;
+    }
+}
+.margin-sm-2 {
+    @include mobile {
+        margin: 1rem;
+    }
+}
+.margin-sm-1 {
+    @include mobile {
+        margin: 0.5rem;
+    }
+}
+.margin-sm-0 {
+    @include mobile {
+        margin: 0;
+    }
+}
+
+// large x(left and right) lateral padding
+.margin-smx-5 {
+    @include mobile {
+        margin: 0 4rem;
+    }
+}
+.margin-smx-4 {
+    @include mobile {
+        margin: 0 3rem;
+    }
+}
+.margin-smx-3 {
+    @include mobile {
+        margin: 0 2rem;
+    }
+}
+.margin-smx-2 {
+    @include mobile {
+        margin: 0 1rem;
+    }
+}
+.margin-smx-1 {
+    @include mobile {
+        margin: 0 0.5rem;
+    }
+}
+// large y(up and down) padding
+.margin-smy-5 {
+    @include mobile {
+        margin: 4rem 0;
+    }
+}
+.margin-smy-4 {
+    @include mobile {
+        margin: 3rem 0;
+    }
+}
+.margin-smy-3 {
+    @include mobile {
+        margin: 2rem 0;
+    }
+}
+.margin-smy-2 {
+    @include mobile {
+        margin: 1rem 0;
+    }
+}
+.margin-smy-1 {
+    @include mobile {
+        margin: 0.5rem 0;
+    }
+}

@@ -5,4 +5,35 @@
 }
 
 
+.suscribe-input {
+    @include laptop {       
+        height: 50px;
+        
+    }
+    @include tablet {}
+}
 
+
+.sm-icon {
+    font-size: 1.8rem;
+    margin: 0.5rem;
+}
+
+.btn-icon {
+    font-size: 1.2rem;
+}
+
+.footer {
+    padding: 3rem 0.5rem;
+}
+
+.footer-option-nav {
+    padding: 1.5rem 0;
+    @include tablet{
+
+    }
+}
+
+.footer-form-container {
+    padding-top: 2.5rem;
+}

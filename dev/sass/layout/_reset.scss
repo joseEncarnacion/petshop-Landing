@@ -7,6 +7,16 @@ a {
 }
 
 
+.link-decoration {
+    padding: 0 1.7rem;
+}
+
+a:hover {
+   color: $mysecondary;
+//    font-weight: bold;
+}
+
+
 body {
     background-color: $myPrimary;
     font-size: 1.2rem;
